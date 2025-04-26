@@ -1,0 +1,12 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Importa a fonte Roboto, se quiser */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Você pode adicionar aqui também estilos globais se quiser */
+body {
+  @apply font-sans bg-lightBg text-textDark dark:bg-darkBg dark:text-textLight;
+}

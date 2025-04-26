@@ -1,0 +1,37 @@
+/* CSS para temas */
+[data-theme="light"] {
+    --primary-color: #ff4dc1;
+    --background-light: #ffffff;
+    --background-soft: #ffe6f7;
+    --text-main: #cc007a;
+    --hover-color: #ff80d5;
+    --border-color: #ffe6f7;
+  }
+  
+  [data-theme="dark"] {
+    --primary-color: #ff4dc1;
+    --background-light: #1a1a1a; /* Cor de fundo escuro */
+    --background-soft: #2a2a2a;  /* Cor de fundo suave */
+    --text-main: #f1f1f1;        /* Cor do texto claro */
+    --hover-color: #ff80d5;
+    --border-color: #333333;     /* Cor de borda mais escura */
+  }
+  
+  body {
+    background-color: var(--background-light);
+    color: var(--text-main);
+  }
+  
+  button {
+    background-color: var(--primary-color);
+  }
+  
+  input {
+    background-color: var(--background-soft);
+    color: var(--text-main);
+  }
+  
+  a:hover {
+    color: var(--hover-color);
+  }
+  
